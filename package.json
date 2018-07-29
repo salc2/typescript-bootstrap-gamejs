@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap_ts_wp",
+  "version": "1.0.0",
+  "description": "Bootstrap for TS and Webpack",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --config webpack.config --colors --watch",
+    "start": "http-server dist"
+  },
+  "keywords": [
+    "js13k"
+  ],
+  "author": "salc2",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "dependencies": {}
+}
